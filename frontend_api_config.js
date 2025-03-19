@@ -1,5 +1,5 @@
 // Configuration pour connecter le frontend au backend déployé
-const API_URL = 'https://manga-tracker-api.onrender.com/api';
+const API_URL = 'https://manga-tracker-api.onrender.com';
 
 // Fonction pour effectuer des requêtes API
 const apiRequest = async (endpoint, method = 'GET', data = null) => {
