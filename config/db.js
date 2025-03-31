@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/manga_tracker';
+const MONGO_URI = 'mongodb+srv://test:u%m5%Th6w%rFjruTFKfHp@cluster.mongodb.net/manga_tracker?retryWrites=true&w=majority';
 
 // Utilisation d'une base de données en mémoire pour le développement et les tests
 const useInMemoryDB = () => {
