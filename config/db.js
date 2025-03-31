@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const MONGO_URI = 'mongodb+srv://test:u%m5%Th6w%rFjruTFKfHp@cluster.mongodb.net/manga_tracker?retryWrites=true&w=majority';
+const MONGO_URI = 'mongodb+srv://test:u%m5%Th6w%rFjruTFKfHp@mangatracker.nsnqe.mongodb.net/?retryWrites=true&w=majority';
 
 // Utilisation d'une base de données en mémoire pour le développement et les tests
 const useInMemoryDB = () => {
