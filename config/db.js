@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 // Chaîne de connexion MongoDB - utilisez une valeur directe pour éviter les problèmes de variables d'environnement
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/manga_tracker';
+const MONGO_URI=mongodb+srv://test:u%m5%Th6w%rFjruTFKfHp@cluster.mongodb.net/manga_tracker?retryWrites=true&w=majority
 
 // Connexion à MongoDB simplifiée sans dépendance à mongodb-memory-server
 const connectDB = async () => {
